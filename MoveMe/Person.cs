@@ -26,7 +26,7 @@ namespace MoveMe
 
         public string Drink() 
         {
-            throw new NotImplementedException();
+            return "Je bois";
         }
 
         public virtual string Sleep() 
