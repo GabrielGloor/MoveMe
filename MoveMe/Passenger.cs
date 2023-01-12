@@ -21,7 +21,7 @@ namespace MoveMe
 
         public string LookLandscap() 
         {
-            throw new NotImplementedException();
+            return "Je profite du paysage";
         }
     }
 }
