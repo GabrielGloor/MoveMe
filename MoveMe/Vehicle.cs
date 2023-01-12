@@ -30,7 +30,8 @@ namespace MoveMe
 
         public void StartEngine()
         {
-            throw new NotImplementedException();
+            _engineState = true;
+
         }
 
         public void StopEngine()
