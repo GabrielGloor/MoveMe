@@ -25,4 +25,4 @@ namespace MoveMe
             throw new System.NotImplementedException();
         }
     }
-}
+} //pourquoi juste avoir changer l'instanciation fait passer tout les tests?
