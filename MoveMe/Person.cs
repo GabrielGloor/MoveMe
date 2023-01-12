@@ -8,14 +8,14 @@ namespace MoveMe
 
         public Person(string name)
         {
-            throw new NotImplementedException();
+            _name = name;
         }
 
         public string Name
         {
             get
             {
-                throw new NotImplementedException();
+                return _name;
             }
         }
             
