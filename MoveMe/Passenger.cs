@@ -8,14 +8,14 @@ namespace MoveMe
         
         public Passenger(string name, string destinationCity):base(name)
         {
-            throw new NotImplementedException();
+            _cityOfDestination = destinationCity;
         }
 
         public string CityOfDestination
         {
             get
             {
-                throw new NotImplementedException();
+                return _cityOfDestination;
             }
         }
 
