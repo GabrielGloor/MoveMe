@@ -2,11 +2,11 @@
 
 namespace MoveMe
 {
-    public class Passenger
+    public class Passenger : Person
     {
         private readonly string _cityOfDestination;
         
-        public Passenger(string name, string destinationCity)
+        public Passenger(string name, string destinationCity):base(name)
         {
             throw new NotImplementedException();
         }
