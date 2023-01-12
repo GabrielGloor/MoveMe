@@ -31,7 +31,7 @@ namespace MoveMe
 
         public virtual string Sleep() 
         {
-            throw new NotImplementedException();
+            return "Je dors";
         }
     }
 }
